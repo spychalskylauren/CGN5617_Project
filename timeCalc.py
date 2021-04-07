@@ -1,3 +1,8 @@
+# Inputs:
+# 1. "OrderedODFlowDaily_reduced.csv" (file with number of trips for each OD pair)
+# 2. "trippub_reduced.csv" (file with list of trip start times)
+# 3. file to output results to.
+
 import random
 
 def main(fileIn, timesFile, fileOut):
